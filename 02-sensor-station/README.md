@@ -118,6 +118,13 @@ For my room-temperature display I accept about 13 seconds (7 readings at 2 s eac
 
 ![Raw vs smooth in the Serial Monitor](screenshots/03-serial-raw-smooth.png)
 
+## Demo
+
+
+https://github.com/user-attachments/assets/34f2d064-cfcf-4df7-9168-e4dd09be810f
+
+
+
 ## What I learned
 
 - **I2C:** two shared wires carry many devices, and the address decides who listens. When a device does not answer, the first things to check are the wires and the address.
