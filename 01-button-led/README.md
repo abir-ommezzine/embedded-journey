@@ -34,8 +34,8 @@ I learned that a real button bounces, so one press can look like several, and th
 
 ## Demo
 
-![20-second video](demo.mp4)
 
+[20-second video] https://github.com/user-attachments/assets/d7287196-62ab-42fe-ac1c-91bfa9107a8c
 
 ## Files
 
