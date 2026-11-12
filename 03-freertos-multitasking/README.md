@@ -4,7 +4,7 @@ A sensor station that does three jobs at the same time on an ESP32 running in th
 
 I built this as the third step of my embedded systems self-study plan, on top of the circuit from [02 – Sensor Station](../02-sensor-station). The goal was not only to make it work, but to understand *why* each piece is there: the priorities, the waiting lines (queues), the key to the shared notebook (mutex), and the size of each task's stack.
 
-![Serial log and OLED running](screenshots/01-serial-log.png)
+![Serial log and OLED running](<img width="1231" height="1078" alt="cap4" src="https://github.com/user-attachments/assets/67bd9444-eada-4381-a74c-2a3dd8f7e184" />)
 
 ## What it does
 
