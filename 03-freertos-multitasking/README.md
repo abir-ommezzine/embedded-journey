@@ -4,7 +4,8 @@ A sensor station that does three jobs at the same time on an ESP32 running in th
 
 I built this as the third step of my embedded systems self-study plan, on top of the circuit from [02 – Sensor Station](../02-sensor-station). The goal was not only to make it work, but to understand *why* each piece is there: the priorities, the waiting lines (queues), the key to the shared notebook (mutex), and the size of each task's stack.
 
-![Serial log and OLED running](<img width="1231" height="1078" alt="cap4" src="https://github.com/user-attachments/assets/67bd9444-eada-4381-a74c-2a3dd8f7e184" />)
+
+![Serial log and OLED running](cap4.png)
 
 ## What it does
 
@@ -104,7 +105,7 @@ Measured in the **Wokwi simulation**, so these values are not the same as on a r
 
 | # | What I changed | What I observed |
 |---|---|---|
-| 1 | Added `delay(3000);` in the display task, after `oled.display();` | ![Company logo](cap2.png)) |
+| 1 | Added `delay(3000);` in the display task, after `oled.display();` | ![Company logo](cap2.png) |
 | 2 | Reduced the logger stack from 4096 to 1024 bytes | The board crashed and kept restarting (see below) |
 
 ### The stack overflow
