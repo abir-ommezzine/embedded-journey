@@ -42,7 +42,7 @@ The circuit is the same as in project 02, without the accelerometer.
 
 ## How to run it
 
-1. Open the project in Wokwi: **TODO: add your Wokwi project link**
+1. Open the project in Wokwi: **(https://wokwi.com/projects/480206176495252481)**
 2. Make sure these libraries are added in the Library Manager:
    - `Adafruit SSD1306`
    - `Adafruit GFX Library`
